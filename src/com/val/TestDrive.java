@@ -13,22 +13,31 @@ public class TestDrive {
     }
 
     private static void testApple() {
-        Apple apple = new Apple();
+        Apple apple = new Apple("red");
+        System.out.println("My colour is " + apple.getColour());
     }
 
     private static void testBag() {
-        Bag bag = new Bag();
+        Bag bag = new Bag("purple");
+        System.out.println("My colour is " + bag.getColour());
+
     }
 
     private static void testBoard() {
-        Board board = new Board();
+        Board board = new Board("green");
+        System.out.println("My colour is " + board.getColour());
+
     }
 
     private static void testBook() {
-        Book book = new Book();
+        Book book = new Book("brown");
+        System.out.println("My colour is " + book.getColour());
+
     }
 
     private static void testPencil() {
-        Pencil board = new Pencil();
+        Pencil board = new Pencil("green, blue and yellow");
+        System.out.println("My colour is " + board.getColour());
+
     }
 }
