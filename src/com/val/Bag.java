@@ -12,4 +12,9 @@ public class Bag {
     public String getColour() {
         return colour;
     }
+
+    @Override
+    public String toString() {
+        return String.format("I am a bag and my colour is " + colour);
+    }
 }

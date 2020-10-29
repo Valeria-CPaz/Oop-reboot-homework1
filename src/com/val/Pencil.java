@@ -13,4 +13,9 @@ public class Pencil {
         return colour;
     }
 
+    @Override
+    public String toString() {
+        return String.format("I am a pencil and my colour is " + colour);
+    }
+
 }

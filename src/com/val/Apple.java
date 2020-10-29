@@ -12,4 +12,9 @@ public class Apple {
     public String getColour() {
         return colour;
     }
+
+    @Override
+    public String toString() {
+        return String.format("I am an apple and my colour is " + colour);
+    }
 }

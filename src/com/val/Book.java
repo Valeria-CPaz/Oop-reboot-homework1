@@ -12,4 +12,9 @@ public class Book {
     public String getColour() {
         return colour;
     }
+
+    @Override
+    public String toString() {
+        return String.format("I am a book and my colour is " + colour);
+    }
 }
